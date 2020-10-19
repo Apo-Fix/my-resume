@@ -145,7 +145,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  width: auto;
+  width: 100%;
   opacity: 0;
   transition: all 0.3s ease-in-out;
   pointer-events: none;
@@ -180,8 +180,8 @@ body {
   font-size: 18px;
   position: absolute;
   color: var(--c-grey-blue);
-  top: 16px;
-  right: 16px;
+  top: 20px;
+  right: 20px;
   cursor: pointer;
 }
 
@@ -270,6 +270,7 @@ body {
   justify-content: center;
   padding: 20px 10px;
   box-sizing: border-box;
+  right: 0;
 }
 
 .request-received-container {
@@ -332,7 +333,7 @@ body {
 .project-modal-scrollable {
   overflow-y: auto;
   height: 100%;
-  padding: 0 20px 0 5px;
+  padding: 0 5px;
 }
 
 .project-modal-title {
@@ -724,9 +725,10 @@ body {
 .team-projects-title-bgd {
   position: absolute;
   top: -50px;
-  left: 45px;
+  left: 0;
+  right: 0;
   font-weight: bold;
-  font-size: 150px;
+  font-size: 110px;
   line-height: 180px;
   text-transform: uppercase;
   color: var(--txt-c-grey-light);
